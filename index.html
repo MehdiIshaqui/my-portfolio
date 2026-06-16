@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <span>Syed Mudassar Mehdi</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#projects">Project Details</a>
+                <a href="#skills">Skills</a>
+                <a href="#recommendations">Recommendations</a>
+        </nav>
+
+        <button class="gradient-btn">My Profile
+        </button>
+
+    </header>
+       
+    <section class="home" id="home">
+        <div class="profile-name">
+            <h1>Hi, I'm <span>Syed Mudassar Mehdi</span></h1>
+            <h3>I'm a <span>passionate Software Developer</span></h3>
+            <p>I gained experience in web development, mobile app development, and machine learning.</span> I enjoy creating innovative solutions and continuously learning new technologies.</p>
+            </div>
+
+        <div class="profile-image">
+            <img src="https://png.pngtree.com/png-clipart/20231109/original/pngtree-programmer-it-developer-png-image_13520483.pnghttps://png.pngtree.com/png-clipart/20231109/original/pngtree-programmer-it-developer-png-image_13520483.png" alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img src="https://pixabay.com/images/download/softradixtech-ai-generated-9241538_1920.jpg" alt="Profile Image">
+        </div>
+
+        <div class="about-content">
+            <h2><span>Syed Mudassar Mehdi</span></h2>
+            <p>I am a dedicated Software Developer with a strong background in Web Development,Mobile App Development and Machine Learning.</p><br>
+            <p>I have a passion for creating innovative solutions and continuously learning new Technologies.</p></br>
+            <p>My goal is to contribute to impactful projects and collaborate with like-minded professionals.</p></br></br>
+            <a href="#" class="gradient-btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        
+        <h2 class="heading">Projects</h2>
+        
+        <div class="project-box">
+            <div class="project-card"></br>
+
+                <h3>1. Software Testing:</h3>
+                <p>To ensure the Reliability, Performance and Security of the Developed Application.</br>
+                    A structured Software Testing Life Cycle (STLC) was implemented.</p></br>
+            </div>
+            <div class="project-card"></br>
+
+                <h3>2. Chatbot Development:</h3>
+                <p>This project aims to build an automated customer support Chatbot for Web and Mobile platforms.</br>
+                   By utilizing Advanced NLP and Retrieval-Augmented Generation (RAG).</br> 
+                   The bot will instantly answer Frequently Asked Questions (FAQs).</br> 
+                   The bot guide users through troubleshooting workflows, and process transactional requests.</p>
+            </div>
+            <div class="project-card">
+
+                <h3>3. Fashion E-Commerce Website:</h3>
+                <p>A responsive e-commerce website for a fashion brand, featuring product listings, shopping cart functionality.</br>
+                A seamless checkout process.</p>
+            </div>
+        </div>
+        </section>
+
+       <section class="skills" id="skills"> 
+        
+        <h2 class="heading">Skills</h2>
+
+        <div class="skill-box">
+            <div class="skill-card">
+
+        <div class="skills-img">
+            <img src="https://png.pngtree.com/png-vector/20250110/ourlarge/pngtree-web-developer-3d-icon-isolated-on-a-white-background-highlighting-coding-png-image_15139686.png" alt="Skill Image">
+        </div>
+
+                <h3>1. Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and frameworks like React and Angular.</p></br>
+            </div>
+            <div class="skill-card">
+
+        <div class="skills-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Python-logo.png" alt="Skill Image">
+        </div>
+
+                <h3>2. Python Programming</h3>
+                <p>Experienced in building cross-platform mobile applications using Flutter and React Native.</p></br>
+            </div>
+            <div class="skill-card">
+
+        <div class="skills-img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Hey_Machine_Learning_Logo.png" alt="Skill Image">
+        </div>
+
+                <h3>3. Machine Learning</h3>
+                <p>Knowledgeable in machine learning algorithms, data preprocessing, and model evaluation.</p></br>
+            </div>
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+
+            <div id="all_recommendations">
+                <div class="recommendation">
+                    <p>"Syed Mudassar is a quick learner software developer with a strong work ethic."</p> 
+                       <p>"He consistently delivers high-quality code and is a great team player."</p>
+                </div>
+
+                <div class="recommendation-form">
+                    <input type="text" id="name" placeholder="Name(Optional)">
+                    <textarea id="new_recommendation" placeholder="Write your recommendation here..."></textarea>
+
+                    <button onclick="addRecommendation()">Submit</button>
+                </div>
+        </section>
+            
+
+    <script src="script.js"></script>
+</body>
+</html>
